@@ -53,7 +53,7 @@ trait BotAuthControllerTrait
         {
             // Check auth code
             $secret = trim($provider->getText());
-            if(!\Str::startsWith($secret, $this->getSecretPrefix()))
+            if(!Str::startsWith($secret, $this->getSecretPrefix()))
             {
                 // To send a message back
                 $provider->sendMessage(__('botauth::callback.code_isnot_correct'));
