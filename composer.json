@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ZetRider\\BotAuth\\": "packages/zetrider/botauth/src"
+            "ZetRider\\BotAuth\\": "src/"
         }
     },
     "extra": {
