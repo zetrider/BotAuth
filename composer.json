@@ -1,0 +1,35 @@
+{
+    "name": "zetrider/botauth",
+    "description": "authentication by bot",
+    "keywords": ["auth", "laravel", "bot", "facebook", "telegram", "vk", "vkontakte"],
+    "license": "https://github.com/zetrider/BotAuth",
+    "homepage": "https://laravel.com",
+    "authors": [
+        {
+            "name": "ZetRider",
+            "email": "zetrider@bk.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "guzzlehttp/guzzle": "~6.0",
+        "illuminate/support": "5.5.x|5.6.x|5.7.x|5.8.x",
+    },
+    "autoload": {
+        "psr-4": {
+            "ZetRider\\BotAuth\\": "packages/zetrider/botauth/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ZetRider\\BotAuth\\BotAuthServiceProvider"
+            ],
+            "aliases": {
+                "BotAuth": "ZetRider\\BotAuth\\Facades\\BotAuth"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
