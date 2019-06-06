@@ -92,7 +92,9 @@
                             });
                         </script>
                     @endauth
-
+                    <p class="text-center small text-muted mt-3">
+                        <a href="https://github.com/zetrider/BotAuth" target="_blank">https://github.com/zetrider/BotAuth</a>
+                    </p>
                 </div>
             </section>
         </main>

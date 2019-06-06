@@ -2,8 +2,8 @@
     "name": "zetrider/botauth",
     "description": "authentication by bot",
     "keywords": ["auth", "laravel", "bot", "facebook", "telegram", "vk", "vkontakte"],
-    "license": "https://github.com/zetrider/BotAuth",
-    "homepage": "https://laravel.com",
+    "license": "MIT",
+    "homepage": "https://github.com/zetrider/BotAuth",
     "authors": [
         {
             "name": "ZetRider",
