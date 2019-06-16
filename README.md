@@ -28,7 +28,7 @@ ____
 2. Подключить пакет в config/app.php
     * Провайдер
     ```ZetRider\BotAuth\BotAuthServiceProvider::class,```
-    * Фасад (Алиса)
+    * Фасад (Алиас)
 
     ```'BotAuth' => ZetRider\BotAuth\Facades\BotAuth::class,```
 
